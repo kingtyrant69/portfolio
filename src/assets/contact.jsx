@@ -30,10 +30,13 @@ const Contact = () => {
       <div
         ref={sectionRef}
         className="flex justify-center h-[120vh] bg-slate-50"
-      >
+      > 
         <div
           className={` bg-black flex flex-col gap-20 rounded-[80px] p-16`}
-           style={{ width, transition: "width 0.1s ease" }}
+          style={{
+            width: window.innerWidth >= 640 ? width : 'auto', // Apply dynamic width for larger screens only
+            transition: window.innerWidth >= 640 ? 'width 0.1s ease' : 'none', // Apply transition only for larger screens
+          }}
         >
           <p className="xl:text-[130px] lg:text-[100px] text-[60px] text-white inline leading-none font-[500] tracking-[-.01em]">Get In Touch With Me!</p>
           <div className="flex justify-between lg:items-center flex-col lg:flex-row gap-10">
