@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="sticky top-0">
       <div className="h-[30vh] bg-slate-50">
-        <div className="flex justify-between items-center p-16">
+        <div className="flex justify-between items-center lg:p-20 p-5 pt-20">
           <div className="font-bold tracking-widest text-2xl">Aman Agarwal</div>
           <button className="button">
             <svg className="svgIcon" viewBox="0 0 384 512">

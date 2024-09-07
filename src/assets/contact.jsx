@@ -29,7 +29,7 @@ const Contact = () => {
     <div className="top-0 sticky">
       <div
         ref={sectionRef}
-        className="flex justify-center h-[120vh] bg-slate-50"
+        className="flex justify-center h-[110vh] bg-slate-50"
       > 
         <div
           className={` bg-black flex flex-col gap-20 rounded-[80px] p-16`}
