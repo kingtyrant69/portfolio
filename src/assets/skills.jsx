@@ -24,6 +24,7 @@ const Skills = () => {
               secondTitle="Skills"
               skills={list}
             />
+            lund
           </div>
         </div>
       </div>
