@@ -184,11 +184,7 @@ body {
     font-size: 100%;
     font-weight: 600;
     margin: 0;
-    -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
     padding: 0;
-  }
-  .btn-20:disabled {
-    cursor: default;
   }
   .btn-20:-moz-focusring {
     outline: auto;
@@ -201,7 +197,6 @@ body {
   }
   .btn-20 {
     border-radius: 99rem;
-    border-width: 2px;
     overflow: hidden;
     padding: 1rem 1.8rem;
     position: relative;
@@ -218,7 +213,7 @@ body {
     position: absolute;
     top: 0;
     transform: skew(0deg) translateX(-20%);
-    transition: transform 0.6s ease;
+    transition: transform 0.3s ease;
     width: 120%;
   }
   .btn-20:hover:before {

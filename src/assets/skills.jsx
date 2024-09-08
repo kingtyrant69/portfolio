@@ -3,14 +3,14 @@ import SkillCard from "../components/skillCard";
 
 const Skills = () => {
   const [list, setList] = useState(["HTML", "CSS", "JavaScript"]);
-  const [image, setImage] = useState("./image.png");
+  const [image, setImage] = useState("./1.avif");
   const [title, setTitle] = useState("Frontend Development");
 
   return (
     <div className="sticky top-0">
     <div className="bg-slate-50 h-[100vh]">   
       <div className="flex justify-center items-center lg:pr-24">
-        <div className="lg:inline-block hidden w-[40%]"></div>
+        <div className="lg:inline-block hidden w-[20%]"></div>
         <div>
           <div>
             <div className="flex justify-between items-center">

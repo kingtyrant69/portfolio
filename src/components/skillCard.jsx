@@ -3,7 +3,7 @@ import propTypes from 'prop-types'
 const SkillCard = ({image_url, title, secondTitle, skills}) => {
   return (
     <div className=''>
-      <div className='flex lg:flex-row flex-col-reverse bg-slate-200 rounded-lg'>
+      <div className='flex lg:flex-row flex-col-reverse bg-slate-200 h-[400px] rounded-lg'>
         <div className='lg:w-1/2'>
         <div className='flex flex-col gap-5  p-10'>
                 <p className='font-bold text-lg'>
@@ -22,7 +22,7 @@ const SkillCard = ({image_url, title, secondTitle, skills}) => {
         </div>
         </div>
         <div className='lg:w-1/2'>
-            <img src={image_url} className='rounded-xl lg:h-full w-full' />
+            <img src={image_url} className='rounded-xl h-full w-fit' />
         </div>
         </div>
     </div>

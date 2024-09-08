@@ -32,7 +32,7 @@ const Projects = () => {
         <div className="sticky top-0">
           <ProjectCard
             title="Weather App"
-            footer="Know the weather of any place"
+            footer="External Api"
             content="You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use md:bg-gradient-to-r to apply the bg-gradient-to-r utility at only medium screen sizes and above."
             image_url="/image.png"
             stack="MERN Stack"
