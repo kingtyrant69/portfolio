@@ -24,7 +24,7 @@ const Projects = () => {
             title="Twitter App"
             footer="Clone Type"
             content="If you need to use a one-off background-image value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value."
-            image_url="/image.png"
+            image_url="/image2.png"
             stack="NextJS, PostgreSQL"
             color="bg-green-300"
           />

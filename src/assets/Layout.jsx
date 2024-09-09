@@ -20,25 +20,25 @@ const Layout = ({children}) => {
           <a href="https://www.instagram.com/aman._.agarwal/">
             <FaInstagram
               size={30}
-              className="hover:opacity-50 hover:animate-bounce"
+              className="hover:opacity-50"
             />
           </a>
           <a href="https://x.com/Aman33371393?t=-B4CkqEvPJh83X6tzBYfxA&s=08">
             <AiOutlineX
               size={30}
-              className="hover:opacity-50 hover:animate-bounce"
+              className="hover:opacity-50"
             />
           </a>
           <a href="https://www.linkedin.com/in/aman-agarwal-7431ab228/">
             <FaLinkedin
               size={30}
-              className="hover:opacity-50 hover:animate-bounce"
+              className="hover:opacity-50"
             />
           </a>
           <a href="https://www.github.com/kingtyrant69">
             <FaGithub
               size={30}
-              className="hover:opacity-50 hover:animate-bounce"
+              className="hover:opacity-50"
             />{" "}
           </a>
         </div>
