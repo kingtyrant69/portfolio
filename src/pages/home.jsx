@@ -5,10 +5,11 @@ import Projects from "../assets/projects";
 import Contact from "../assets/contact";
 import Footer from "../components/Footer";
 import Skills from "../assets/skills";
+import { useEffect } from "react";
 
 
 const Home = () => {
-
+  
   return (
     <div>
       <Loader/>

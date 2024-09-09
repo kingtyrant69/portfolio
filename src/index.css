@@ -405,9 +405,14 @@ body {
   border-color: #fff;
   color:black;
 }
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+.snap-container {
+  height: 300vh; /* 3 sections of full-screen height */
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
-.fade-in{ animation: fadeIn 2s; }
+
+.snap-section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
 }
