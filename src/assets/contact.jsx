@@ -50,7 +50,7 @@ const Contact = () => {
           <p className="xl:text-[130px] lg:text-[100px] text-[60px] text-white inline leading-none font-[500] tracking-[-.01em]">Get In Touch With Me!</p>
           <div className="flex justify-between lg:items-center flex-col lg:flex-row gap-10">
           <div className="form-container">
-            <form className="form">
+            <form className="form" action="mailto:aman.agarwal.1509@gmail.com" method="POST" encType="text/plain" name="EmailForm">
               <div className="form-group">
                 <label htmlFor="email">Email:</label>
                 <input type="text" id="email" name="email" required="" />

@@ -13,7 +13,7 @@ const Projects = () => {
           <ProjectCard
             title="Testimonials"
             footer="Saas Product"
-            content="You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use md:bg-gradient-to-r to apply the bg-gradient-to-r utility at only medium screen sizes and above."
+            content="Our MERN stack project, Testimonials, is designed to collect and showcase user feedback seamlessly. Utilizing MongoDB for data storage, Express.js and Node.js for server-side logic, and React for a dynamic front-end, this application allows users to submit, view, and manage testimonials effortlessly."
             image_url="/image.png"
             stack="MERN Stack"
             color="bg-[#d2d6e0]"
@@ -23,7 +23,7 @@ const Projects = () => {
           <ProjectCard
             title="Twitter App"
             footer="Clone Type"
-            content="If you need to use a one-off background-image value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value."
+            content="TweetStream is a Twitter clone built with Next.js, offering a sleek and responsive social media experience. Users can post tweets, follow others, and interact with a live feed of updates. Utilizing Next.js for server-side rendering and static site generation, TweetStream ensures fast load times and optimal performance. "
             image_url="/image2.png"
             stack="NextJS, PostgreSQL"
             color="bg-red-200"
@@ -31,11 +31,11 @@ const Projects = () => {
         </div>
         <div className="sticky top-0">
           <ProjectCard
-            title="Weather App"
-            footer="External Api"
-            content="You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use md:bg-gradient-to-r to apply the bg-gradient-to-r utility at only medium screen sizes and above."
-            image_url="/image.png"
-            stack="MERN Stack"
+            title="Portfolio Website"
+            footer="Portfolio"
+            content="My Portfolio is a sleek, modern portfolio website crafted with Vite and React. Leveraging Vite's fast build times and hot module replacement, My Portfolio offers a smooth, responsive experience for viewing projects, skills, and achievements."
+            image_url="/image3.png"
+            stack="Vite+React"
             color="bg-[#a29ab9]"
           />
         </div>
