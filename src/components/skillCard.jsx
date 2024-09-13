@@ -1,6 +1,6 @@
 import propTypes from 'prop-types'
 
-const SkillCard = ({image_url, title, secondTitle, skills}) => {
+const SkillCard = ({image_url, title, skills}) => {
   return (
     <div className=''>
       <div className='flex lg:flex-row flex-col-reverse bg-slate-200 h-[400px] rounded-lg'>
@@ -11,7 +11,7 @@ const SkillCard = ({image_url, title, secondTitle, skills}) => {
                 </p>
                 <div>   
                     <p className='font-bold opacity-80'>
-                        {secondTitle}
+                        Skills
                     </p>
                     <ul className='p-4 opacity-75'>
                         {skills.map((skill)=>

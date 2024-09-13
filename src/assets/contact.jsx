@@ -3,8 +3,17 @@ import { MdOutlineEmail, MdOutlinePhone } from "react-icons/md";
 const Contact = () => {
   const sectionRef = useRef(null);
   const [width, setWidth] = useState("100%");
+  function throttle(func, delay) {
+    let lastCall = 0;
+    return function (...args) {
+      const now = new Date().getTime();
+      if (now - lastCall < delay) return;
+      lastCall = now;
+      return func(...args);
+    };
+  }
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScroll = throttle(() => {
       if (sectionRef.current) {
         const section = sectionRef.current;
         const rect = section.getBoundingClientRect();
@@ -19,7 +28,7 @@ const Contact = () => {
 
         setWidth(`${newWidth}%`);
       }
-    };
+    },100);
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);

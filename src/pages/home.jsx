@@ -4,18 +4,18 @@ import About from "../assets/about";
 import Projects from "../assets/projects";
 import Contact from "../assets/contact";
 import Footer from "../components/Footer";
-import Skills from "../assets/skills";
 import { useEffect } from "react";
+  import Skills2 from "../assets/skills2";
 
 
-const Home = () => {
-  
+  const Home = () => {
+    
   return (
     <div>
       <Loader/>
       <Layout>
         <section><About/></section>
-        <section><Skills/></section>
+         <section><Skills2/></section>
         <section><Projects/></section>
         <section><Contact/></section>
         <footer><Footer/></footer>

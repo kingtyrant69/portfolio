@@ -16,7 +16,7 @@ const Projects = () => {
             content="You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use md:bg-gradient-to-r to apply the bg-gradient-to-r utility at only medium screen sizes and above."
             image_url="/image.png"
             stack="MERN Stack"
-            color="bg-blue-300"
+            color="bg-[#d2d6e0]"
           />
         </div>
         <div className="sticky top-0">
@@ -26,7 +26,7 @@ const Projects = () => {
             content="If you need to use a one-off background-image value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value."
             image_url="/image2.png"
             stack="NextJS, PostgreSQL"
-            color="bg-green-300"
+            color="bg-red-200"
           />
         </div>
         <div className="sticky top-0">
@@ -36,7 +36,7 @@ const Projects = () => {
             content="You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use md:bg-gradient-to-r to apply the bg-gradient-to-r utility at only medium screen sizes and above."
             image_url="/image.png"
             stack="MERN Stack"
-            color="bg-red-300"
+            color="bg-[#a29ab9]"
           />
         </div>
       </div>
