@@ -14,7 +14,7 @@ const Skills2 = () => {
       }
   return (
     <section className='h-[80vh] overflow-hidden sticky top-0'>
-        <div className='mb-30 mt-20 bg-white'>
+        <div className='mb-30 mt-20 bg-slate-50'>
       <motion.section 
         className="md:w-[1800px] w-[600px] md:h-[160px] h-[80px] bg-[#3d4352] flex justify-center items-center mb-3 -ml-2 rotate-[3deg] overflow-hidden"
         initial={{ opacity: 0 }}
