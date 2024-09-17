@@ -12,7 +12,7 @@ const Layout = ({children}) => {
         <div className="font-bold tracking-widest text-2xl">
           Aman Agarwal
         </div>
-        <button className="btn-20"><span className="flex items-center gap-2"><p className="hidden lg:inline-block"><a href="https://drive.google.com/file/d/1Zx1qIkT3jAzcWTmc7fXusFEiHXHwC4PS/view?usp=drive_link">My Resume </a></p><BsArrow90DegRight size={15}/></span></button>
+        <a href="https://drive.google.com/file/d/1Zx1qIkT3jAzcWTmc7fXusFEiHXHwC4PS/view?usp=drive_link"><button className="btn-20"><span className="flex items-center gap-2"><p className="hidden lg:inline-block">My Resume </p><BsArrow90DegRight size={15}/></span></button></a>
       </div>
       <div className="lg:h-[67vh] h-[85vh] w-[10vw] flex flex-col justify-between">
         <div></div>
