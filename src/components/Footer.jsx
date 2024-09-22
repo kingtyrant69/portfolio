@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="sticky top-0">
-      <div className="h-[30vh] bg-slate-50">
+      <div className="lg:h-[30vh] h-[20vh] bg-slate-50">
         <div className="flex justify-between items-center lg:p-20 p-5 pt-20">
           <div className="font-bold tracking-widest text-2xl">Aman Agarwal</div>
           <button

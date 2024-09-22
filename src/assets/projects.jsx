@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div className="flex flex-col z-[5000]">
       <div>
-      <p className="text-[50px] font-[500] m-16 mt-0 flex justify-center">
+      <p className="text-[50px] font-[500] lg:py-16 py-8  mt-0 flex justify-center">
         Recent Projects
       </p>
       </div>
